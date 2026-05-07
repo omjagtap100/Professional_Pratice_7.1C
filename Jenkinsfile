@@ -28,7 +28,7 @@ pipeline {
         stage('Deploy to Staging') {
             steps {
                 echo 'Task: Deploy app to staging server'
-                echo 'Tool: Docker + AWS EC2 (or Kubernetes)'
+                echo 'Tool: Docker + AWS Changes (or Kubernetes)'
             }
         }
         stage('Integration Tests on Staging') {
